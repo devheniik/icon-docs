@@ -23,7 +23,7 @@ const search = ref('')
           <DocumentTextIcon class="w-5 h-5 mr-1" />
           Docs
         </a>
-        <a href="https://github.com/devheniik/icons" target="_blank" class="rounded-md py-1 px-2 button flex flex-row cursor-pointer flex items-center">
+        <a href="https://www.npmjs.com/package/@devheniik/icons" target="_blank" class="rounded-md py-1 px-2 button flex flex-row cursor-pointer flex items-center">
           <CubeIcon class="w-5 h-5 mr-1" />
           npm
         </a>
