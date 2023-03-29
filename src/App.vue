@@ -1,7 +1,7 @@
 <script setup>
 import {ref} from 'vue'
 import * as icons from '@devheniik/icons'
-import {MagnifyingGlassIcon, DocumentTextIcon, CubeIcon} from "@devheniik/icons"
+import {MagnifyingGlassIcon, FileDocumentIcon, CubeIcon} from "@devheniik/icons"
 
 const list = ref([])
 
@@ -20,7 +20,7 @@ const search = ref('')
       <img src="/LogoDevheniikIcon.png" alt="logo" class="h-10" />
       <div class="flex items-center justify-end space-x-2">
         <a href="https://github.com/devheniik/icons" target="_blank" class="rounded-md py-1 px-2 button flex flex-row cursor-pointer flex items-center">
-          <DocumentTextIcon class="w-5 h-5 mr-1" />
+          <FileDocumentIcon class="w-5 h-5 mr-1" />
           Docs
         </a>
         <a href="https://www.npmjs.com/package/@devheniik/icons" target="_blank" class="rounded-md py-1 px-2 button flex flex-row cursor-pointer flex items-center">
