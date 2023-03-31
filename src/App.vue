@@ -1,7 +1,7 @@
 <script setup>
 import {ref} from 'vue'
 import * as icons from '@devheniik/icons'
-import {MagnifyingGlassIcon, FileDocumentIcon, CubeIcon} from "@devheniik/icons"
+import {MagnifyingGlassPlusIcon, FileDocumentIcon, CubeIcon} from "@devheniik/icons"
 
 const list = ref([])
 
@@ -37,7 +37,7 @@ const search = ref('')
                  placeholder="Search all icons..."
                  type="search"
                  v-model="search">
-          <MagnifyingGlassIcon class="pointer-events-none absolute inset-y-0 left-2 h-full w-5 transition" />
+          <MagnifyingGlassPlusIcon class="pointer-events-none absolute inset-y-0 left-2 h-full w-5 transition" />
         </div>
       </div>
     </div>
