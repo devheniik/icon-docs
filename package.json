@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@devheniik/icons": "1.0.20",
+    "@devheniik/icons": "1.0.25",
     "vue": "^3.2.45"
   },
   "devDependencies": {
